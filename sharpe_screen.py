@@ -9,9 +9,9 @@ import numpy as np
 
 RISK_FREE = 0.04 
 
-FINAL_BASKET = ["GSK.L", "SCT.L", "BAES.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
+FINAL_BASKET = ["GSK.L", "SCT.L", "BA.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
 # candidate universe screened for the report
-tickers = ["GSK.L", "CTEC.L", "SGE.L", "REL.L", "SCT.L", "BAB.L", "BAES.L", "HILS.L", "MGNS.L", "RKH.L", "SSE.L", "NG.L", "RIO.L", "SGRO.L", "AUTO.L", "INCH.L", "BLND.L", "HSBA.L", "TSCO.L", "SBRY.L", "BT-A.L"]
+tickers = ["GSK.L", "CTEC.L", "SGE.L", "REL.L", "SCT.L", "BAB.L", "BA.L", "HILS.L", "MGNS.L", "RKH.L", "SSE.L", "NG.L", "RIO.L", "SGRO.L", "AUTO.L", "INCH.L", "BLND.L", "HSBA.L", "TSCO.L", "SBRY.L", "BT-A.L"]
 
 
 data = yf.download(tickers, start='2023-01-01', end='2025-10-01')['Close']

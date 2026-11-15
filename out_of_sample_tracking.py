@@ -12,7 +12,7 @@ import pandas as pd
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-tickers = ["GSK.L", "SCT.L", "BAES.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
+tickers = ["GSK.L", "SCT.L", "BA.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
 weights = [0.10, 0.16, 0.10, 0.12, 0.10, 0.08, 0.05, 0.11, 0.08, 0.10]
 #YYYY-MM-DD
 START = "2025-12-30"

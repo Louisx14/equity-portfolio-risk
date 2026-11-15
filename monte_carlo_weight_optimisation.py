@@ -315,7 +315,7 @@ def result_pretty_print(results):
 # running the functions below and the actual execution of the code.
 
 # setting tickers
-tickers = ["GSK.L", "SCT.L", "BAES.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
+tickers = ["GSK.L", "SCT.L", "BA.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
 
 # intialising our result list nad fetching close prices over the past 3 years
 results = []

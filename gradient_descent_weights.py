@@ -16,7 +16,7 @@ from more_itertools import distinct_permutations
 
 
 bounds = [0.02, 0.2]
-tickers = ["GSK.L", "SCT.L", "BAES.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
+tickers = ["GSK.L", "SCT.L", "BA.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
 
 LEARNING_RATE = 0.03
 

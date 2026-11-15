@@ -8,7 +8,7 @@ import yfinance as yf
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-tickers = ["GSK.L", "SCT.L", "BAES.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
+tickers = ["GSK.L", "SCT.L", "BA.L", "HILS.L", "RKH.L", "NG.L", "SGRO.L", "INCH.L", "HSBA.L", "BT-A.L"]
 
 
 data = yf.download(tickers, start='2023-01-01', end='2025-10-01')['Close']
