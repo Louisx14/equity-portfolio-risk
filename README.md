@@ -1,5 +1,10 @@
 # Equity Portfolio Risk Modelling & Optimisation
 
+**Result:** tracked for eleven months out-of-sample, the optimised weights
+returned 14% against 12% for the FTSE 100 (Sharpe 0.78 against 0.75) and showed
+no edge over an equal-weight basket. An earlier, stronger figure was traced to a
+wrong ticker and corrected (see Notes).
+
 Python behind my second-year University of Bath portfolio project
 (coursework December 2025 – February 2026, graded First, 71%; tracked out of
 sample to November 2026): a systematic UK equity
